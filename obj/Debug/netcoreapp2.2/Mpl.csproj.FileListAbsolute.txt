@@ -1,0 +1,14 @@
+/home/hugofranco/Mpl/bin/Debug/netcoreapp2.2/Mpl.deps.json
+/home/hugofranco/Mpl/bin/Debug/netcoreapp2.2/Mpl.runtimeconfig.json
+/home/hugofranco/Mpl/bin/Debug/netcoreapp2.2/Mpl.runtimeconfig.dev.json
+/home/hugofranco/Mpl/bin/Debug/netcoreapp2.2/Mpl.dll
+/home/hugofranco/Mpl/bin/Debug/netcoreapp2.2/Mpl.pdb
+/home/hugofranco/Mpl/obj/Debug/netcoreapp2.2/Mpl.csprojAssemblyReference.cache
+/home/hugofranco/Mpl/obj/Debug/netcoreapp2.2/Mpl.csproj.CoreCompileInputs.cache
+/home/hugofranco/Mpl/obj/Debug/netcoreapp2.2/Mpl.RazorAssemblyInfo.cache
+/home/hugofranco/Mpl/obj/Debug/netcoreapp2.2/Mpl.RazorAssemblyInfo.cs
+/home/hugofranco/Mpl/obj/Debug/netcoreapp2.2/Mpl.AssemblyInfoInputs.cache
+/home/hugofranco/Mpl/obj/Debug/netcoreapp2.2/Mpl.AssemblyInfo.cs
+/home/hugofranco/Mpl/obj/Debug/netcoreapp2.2/Mpl.RazorTargetAssemblyInfo.cache
+/home/hugofranco/Mpl/obj/Debug/netcoreapp2.2/Mpl.dll
+/home/hugofranco/Mpl/obj/Debug/netcoreapp2.2/Mpl.pdb
