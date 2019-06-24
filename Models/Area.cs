@@ -5,7 +5,7 @@ namespace Mpl.Models
 {
     public class Area
     {
-        public int Id { get; set; }
+        public int AreaId { get; set; }
         public string Descricao { get; set; }
         public IEnumerable<Advogado> Advogados { get; set; }
         public IEnumerable<Escritorio> Escritorios { get; set; }
