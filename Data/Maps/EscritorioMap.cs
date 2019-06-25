@@ -5,8 +5,12 @@ using Mpl.Models;
 
 namespace Mpl.Data.Maps
 {
-    public class EscritorioMap
+    public class EscritorioMap: IEntityTypeConfiguration<Escritorio>
     {
+        public void Configure(EntityTypeBuilder<Escritorio> builder)
+        {
+
+        }
 
     }
 }

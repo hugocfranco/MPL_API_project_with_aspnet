@@ -5,8 +5,12 @@ using Mpl.Models;
 
 namespace Mpl.Data.Maps
 {
-    public class AdvogadoMap
+    public class AdvogadoMap: IEntityTypeConfiguration<Advogado>
     {
+        public void Configure(EntityTypeBuilder<Advogado> builder)
+        {
+
+        }
 
     }
 }
