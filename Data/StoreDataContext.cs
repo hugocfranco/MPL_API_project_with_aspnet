@@ -10,9 +10,13 @@ namespace Mpl.Data
         public DbSet<Area> Areas { get; set; }
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Escritorio> Escritorios { get; set; }
+        public DbSet<AdvArea> AdvAreas { get; set; }
+        public DbSet<EscArea> EscAreas { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=localhost,1433;Database=MPLDB;User ID=SA;Password=Tel-32388771");
+            optionsBuilder
+            .UseSqlServer(@"Server=localhost,1433;Database=MPLDB;User ID=SA;Password=Tel-32388771");
         }
     }
 }

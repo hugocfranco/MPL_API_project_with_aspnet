@@ -10,5 +10,6 @@ namespace Mpl.Models
 		public string Email { get; set; }
 		public int Telefone { get; set; }
 		public string Senha { get; set; }
+		public IEnumerable<EscArea> EscAreas { get; set; }
     }
 }
