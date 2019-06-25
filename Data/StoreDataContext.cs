@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Mpl.Data.Maps;
 using Mpl.Models;
 
 
@@ -17,6 +18,16 @@ namespace Mpl.Data
         {
             optionsBuilder
             .UseSqlServer(@"Server=localhost,1433;Database=MPLDB;User ID=SA;Password=Tel-32388771");
+        }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.ApplyConfiguration(new AdvAreaMap());
+            builder.ApplyConfiguration(new AdvogadoMap());
+            builder.ApplyConfiguration(new AreaMap());
+            builder.ApplyConfiguration(new ClienteMap());
+            builder.ApplyConfiguration(new EscAreaMap());
+            builder.ApplyConfiguration(new EscritorioMap());
         }
     }
 }

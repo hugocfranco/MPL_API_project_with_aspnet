@@ -11,6 +11,5 @@ namespace Mpl.Models
 		public int Telefone { get; set; }
 		public string Senha { get; set; }
 		public IEnumerable<AdvArea> AdvAreas { get; set; }
-
     }
 }
