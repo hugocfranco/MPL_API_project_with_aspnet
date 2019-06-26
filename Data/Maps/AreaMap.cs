@@ -11,7 +11,10 @@ namespace Mpl.Data.Maps
         {
             builder.ToTable("Area");
             builder.HasKey(x => x.AreaId);
-            builder.Property(x => x.Descricao).IsRequired().HasColumnName("Descrição").HasMaxLength(120).HasColumnType("varchar(120)");
+            builder.Property(x => x.Descricao)
+                .IsRequired().HasColumnName("Descrição")
+                .HasMaxLength(120)
+                .HasColumnType("varchar(120)");
         }
     }
 }
