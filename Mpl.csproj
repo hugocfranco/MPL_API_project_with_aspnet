@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.Dotnet" Version="2.2.4" />
   </ItemGroup>
 
 </Project>
